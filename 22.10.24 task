@@ -1,4 +1,4 @@
-//program :create a structure to represent a student whivhincludes the following fields : name age and grade . write a program that initializws and displays the student informatio
+//program : create a structure to representa book which includes fields for title author and publication year . Additionally ceate another structure for a library that contains an array of books. writea program that initializes library and displays books 
 #include<stdio.h>
 
 
