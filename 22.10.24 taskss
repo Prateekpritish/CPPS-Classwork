@@ -1,3 +1,5 @@
+//program : write a program that allows user to to input information for multiple students and then displays the result
+
 #include<stdio.h>
 #include<string.h>
 
