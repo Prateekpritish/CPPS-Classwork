@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+
+struct Student {
+    char name[50];
+    int age;
+    char grade;
+};
+
+
+struct Student getStudentDetails() {
+    struct Student s;
+
+    printf("Enter name: ");
+    scanf("%s", s.name);  
+    printf("Enter age: ");
+    scanf("%d", &s.age);
+    getchar();  
+    printf("Enter grade (A/B/C/D/F): ");
+    scanf("%c", &s.grade);
+
+    return s;  
+}
+
+int main() {
+
+    struct Student s1 = getStudentDetails();
+
+    printf("\nStudent Details:\n");
+    printf("Name: %s\n", s1.name);
+    printf("Age: %d\n", s1.age);
+    printf("Grade: %c\n", s1.grade);
+
+    return 0;
+}
