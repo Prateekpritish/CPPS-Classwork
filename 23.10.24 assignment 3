@@ -1,3 +1,5 @@
+// program : to input multiple student details  using structure pointer 
+
 #include <stdio.h>
 
 
